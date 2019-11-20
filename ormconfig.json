@@ -1,0 +1,10 @@
+{
+    "type": "mssql",
+    "host": "MANGO-TM\\MSSQLSERVER",
+    "port": 1433,
+    "username": "tomy",
+    "password": "P@ssw0rd",
+    "database": "MssqlApi",
+    "entities": ["dist/**/*.entity{.ts,.js}"],
+    "synchronize": true
+}
